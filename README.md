@@ -20,7 +20,7 @@
 ### 预备
 注册百度墨斗鱼知识店铺并绑定你的银行卡(你不绑卡百度把钱打给空气啊)
 
-下载一个翻墙软件(这里推荐使用clash，如果用其他软件要修改tools/article.py下的第136行和137行的端口号)(我也很无奈，因为openai要翻墙才能用，国内局域网，国外互联网)
+下载一个翻墙软件(这里推荐使用clash，如果用其他软件要修改[tools/article.py](https://github.com/LUORANCHENG/CuttleFish_ChatGpt2.0/blob/main/tools/article.py)下的第136行和137行的端口号)(我也很无奈，因为openai要翻墙才能用，国内局域网，国外互联网)
 
 ### 1.安装依赖
 ```
