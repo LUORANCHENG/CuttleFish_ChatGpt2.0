@@ -251,22 +251,22 @@
   ],
   "lark_bot_webhook": "",
   "openai": {
-    "api_key": "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",
+    "api_key": "sk-xxx",
     "api_keys": [
-      "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",
-      "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",
-      "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",
-      "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",
-      "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",
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx",
     ],
     "used_keys": [
-      "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",
-      "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",
-      "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",
-      "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",
-      "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",
-      "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",
-      "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"
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx",
+      "sk-xxx"
     ]
   },
   "path": {
