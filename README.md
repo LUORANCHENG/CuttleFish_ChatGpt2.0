@@ -35,7 +35,7 @@
 前提：1.本项目只适用于windows系统，linux系统用户自己把代码中有关win32的库自己注释掉(不过我想不会有人那么蛋疼用linux系统吧，当然我不是在说我自己)；2.本项目不适合python小白，至少你要会安装python吧(python你都装不明白还是先去把基础搞好)
 
 ### 预备
-注册百度墨斗鱼知识店铺并绑定你的银行卡(你不绑卡百度把钱打给空气啊)
+注册百度墨斗鱼知识店铺并绑定你的银行卡,具体流程看这里[百度墨斗鱼平台注册流程](https://github.com/LUORANCHENG/CuttleFish_ChatGpt2.0/wiki/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%E5%A2%A8%E6%96%97%E9%B1%BC%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B)
 
 下载一个翻墙软件(这里推荐使用clash，如果用其他软件要修改[tools/article.py](https://github.com/LUORANCHENG/CuttleFish_ChatGpt2.0/blob/main/tools/article.py)下的第136行和137行的端口号)(我也很无奈，因为openai要翻墙才能用，国内局域网，国外互联网)
 
