@@ -44,6 +44,12 @@ pip install -r requirements.txt
 
 ### 3.修改setting.json文件
 此文件在conf/目录下
+关键字 | 功能
+--- | ---
+ignore_words | 敏感词(自动跳过包含这些词的文章题目)
+api_key | openai的api_key
+api_keys | openai的api_key池
+
 
 
 
