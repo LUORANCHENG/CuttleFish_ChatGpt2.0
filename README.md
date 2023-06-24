@@ -47,10 +47,13 @@ pip install -r requirements.txt
 关键字 | 功能
 --- | ---
 ignore_words | 敏感词(自动跳过包含这些词的文章题目)
-api_key | openai的api_key
-api_keys | openai的api_key池
-
-
+api_key | openai的api_key(当前程序正在使用的api_key)(此处要改成自己的api_key)
+api_keys | openai的api_key池(用于自动更换api_key)
+used_keys | 已经用完的api_key
+article_log_path | 文章日志的目录(改成自己的路径)
+backup_path | 文章备份路径(改成自己的路径)
+log_path | 日志路径(改成自己的路径)
+temp_path | 保存要上传文章的临时目录(改成自己的路径)
 
 
 
