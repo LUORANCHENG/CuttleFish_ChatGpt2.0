@@ -34,7 +34,7 @@ def is_task_finish(driver, title, numb, name, params):
         numb = numb - 10
         select = 3  # 选到右边
 
-    tips = driver.find_element(By.XPATH, f'{xpath}/div[{str(select)}]/div[{str(numb)}]/div/div[2]/span[2]')
+    tips = driver.find_element(By.XPATH, f'{xpath}/div[{str(select)}]/div[{str(numb)}]/div/div[2]//span[2]')
     tips_html = tips.get_attribute('outerHTML')
     # print(tips_html)
     if "style" in tips_html:
