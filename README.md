@@ -48,7 +48,7 @@ pip install -r requirements.txt
 （这一步不再详细讲述，不懂的看这篇教程:[windowns系统chromedriver安装与环境变量配置](https://ceshiren.com/t/topic/21687)
 
 ### 3.修改setting.json文件
-此文件在conf/目录下(我相信你可以找到的)
+此文件在[conf/](https://github.com/LUORANCHENG/CuttleFish_ChatGpt2.0/blob/main/conf/settings.json)目录下(我相信你可以找到的)
 关键字 | 功能
 --- | ---
 ignore_words | 敏感词(自动跳过包含这些词的文章题目)
@@ -60,7 +60,14 @@ backup_path | 文章备份路径(改成自己的路径)
 log_path | 日志路径(改成自己的路径)
 temp_path | 保存要上传文章的临时目录(改成自己的路径)
 
-### 4.修改main.py里面的参数
+### 4.修改account.csv文件
+account.csv文件在项目的根目录下，先在account.csv里面写自己的百度账号密码 用户名是为了自己方便辨识(相信我，我不会看到你们的密码的)
+
+### 5.修改main.py里面的params参数
+main.py在项目的根目录下,在main里面对params进行设置,各种参数都有注释(不建议开启转pdf功能，因为在多线程下容易堵塞，都怪我技术水平菜，不会修)
+
+## 6.运行main.py
+一切准备就绪后，运行main.py文件，享受搞钱的乐趣吧
 
 
 
