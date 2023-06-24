@@ -1,0 +1,9 @@
+openai
+loguru
+python-docx
+pandas
+selenium
+requests
+typing
+pypiwin32
+docx2pdf
