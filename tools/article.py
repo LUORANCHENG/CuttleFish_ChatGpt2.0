@@ -140,7 +140,7 @@ def write_article(title, params, name):
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "你是一个大文豪"},
+                {"role": "system", "content": "Serve me as a writing and programming assistant."},
                 {"role": "user", "content": prompt},
 
             ],
