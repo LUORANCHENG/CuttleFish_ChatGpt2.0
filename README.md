@@ -78,6 +78,8 @@ log_path | 日志路径(改成自己的路径)
 temp_path | 保存要上传文章的临时目录(改成自己的路径)
 
 ### 4.修改account.csv文件
+重要:不要在wps或者office中打开account.csv文件，在vscode或pycharm中打开，并采用utf-8编码格式！
+
 account.csv文件在项目的根目录下，先在account.csv里面写自己的百度账号密码 用户名是为了自己方便辨识(相信我，我不会看到你们的密码的)
 
 ### 5.修改main.py里面的params参数
