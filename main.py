@@ -77,7 +77,7 @@ def main(cookie, params):
         driver.quit()
         exit()
     elif situ == 2:
-        info = f'{name}:已满100篇,停止上传'
+        info = f'{name}:今日已达上传限制,停止上传'
         logger.warning(info)
         write_log(name, info, params)
         driver.quit()
