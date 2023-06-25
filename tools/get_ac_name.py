@@ -6,9 +6,9 @@ def get_name():
     dic2 = {}
     f = pd.read_csv('account.csv', encoding='utf-8')
     for i in range(f.shape[0]):
-        dic1[f['用户名'][i]] = f['账号'][i]#用户名:账号的字典
+        dic1[str(f['用户名'][i])] = str(f['账号'][i])#用户名:账号的字典
     for i in range(f.shape[0]):
-        dic2[f['账号'][i]] = f['用户名'][i]#账号:用户名的字典
+        dic2[str(f['账号'][i])] = str(f['用户名'][i])#账号:用户名的字典
     return dic1,dic2
 
 # 返回字典
