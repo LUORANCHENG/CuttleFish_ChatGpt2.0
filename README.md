@@ -15,7 +15,7 @@
 
 7.转回到第一步循环
 
-# <img src="docs_md/2023-06-24_08-45.png" width="800" >
+# <img src="/2023-06-24_08-45.png" width="800" >
 > **说在前面**
 > 
 > 在文库更新规则前，一天最多可以上传100篇文章，最多可以5个账号同时跑，一个月就可以搞到5000多元，部分统计数据如下图(是不是很诱人)
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 安装chrome浏览器就不用我多说了吧(小学生都会)
 
 安装好后查看自己chrome浏览器的版本(如下图)
-# <img src="docs_md/8.png" width="500" >
+# <img src="/8.png" width="500" >
 
 然后到这个网址下载相应版本的驱动：[chrome驱动](http://chromedriver.storage.googleapis.com/index.html)。到这里就可能有的小伙伴会问了：Oh,shit！这里面怎么只有win32版本的驱动，老子的电脑可是高贵的X64架构的；我的回答是：你就下32位版本的，在64位的电脑上也能用。
 
@@ -83,7 +83,7 @@ account.csv文件在项目的根目录下，先在account.csv里面写自己的�
 ### 5.修改main.py里面的params参数
 main.py在项目的根目录下,在main里面对params进行设置,各种参数都有注释(不建议开启转pdf功能，因为在多线程下容易堵塞，都怪我技术水平菜，不会修)
 
-## 6.运行main.py
+### 6.运行main.py
 一切准备就绪后，运行main.py文件，享受搞钱的乐趣吧
 
 
