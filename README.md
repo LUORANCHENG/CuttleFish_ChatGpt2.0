@@ -37,7 +37,7 @@
 ### 预备
 注册百度墨斗鱼知识店铺并绑定你的银行卡,具体流程看这里[百度墨斗鱼平台注册流程](https://github.com/LUORANCHENG/CuttleFish_ChatGpt2.0/wiki/%E7%99%BE%E5%BA%A6%E6%96%87%E5%BA%93%E5%A2%A8%E6%96%97%E9%B1%BC%E5%88%9B%E4%BD%9C%E5%B9%B3%E5%8F%B0%E6%B3%A8%E5%86%8C%E6%B5%81%E7%A8%8B)
 
-下载一个翻墙软件(这里推荐使用clash，如果用其他软件要修改[tools/article.py](https://github.com/LUORANCHENG/CuttleFish_ChatGpt2.0/blob/main/tools/article.py)下的第136行和137行的端口号)(我也很无奈，因为openai要翻墙才能用，国内局域网，国外互联网)
+下载一个翻墙软件，并在使用过程中全程保持规则模式开启(这里推荐使用clash，如果用其他软件要修改[tools/article.py](https://github.com/LUORANCHENG/CuttleFish_ChatGpt2.0/blob/main/tools/article.py)下的第136行和137行的端口号)(我也很无奈，因为openai要翻墙才能用，国内局域网，国外互联网)
 
 ### 1.安装依赖
 ```
