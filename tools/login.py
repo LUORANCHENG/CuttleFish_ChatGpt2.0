@@ -20,7 +20,7 @@ def login(cookie,params):
     if params['use_name']:
         #获取账号与用户名的字典
         _,dic = get_ac_name()
-        name = dic[int(name)]
+        name = dic[name]
     info = f'{name}: 登录成功'
     print(info)
     write_log(name,get_time()+' '+info,params)
