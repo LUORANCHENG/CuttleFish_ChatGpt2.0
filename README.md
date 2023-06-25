@@ -48,7 +48,7 @@ pip install -r requirements.txt
 安装chrome浏览器就不用我多说了吧(小学生都会)
 
 安装好后查看自己chrome浏览器的版本(如下图)
-# <img src="/8.png" width="500" >
+# <img src="docs_md/8.png" width="500" >
 
 然后到这个网址下载相应版本的驱动：[chrome驱动](http://chromedriver.storage.googleapis.com/index.html)。到这里就可能有的小伙伴会问了：Oh,shit！这里面怎么只有win32版本的驱动，老子的电脑可是高贵的X64架构的；我的回答是：你就下32位版本的，在64位的电脑上也能用。
 
