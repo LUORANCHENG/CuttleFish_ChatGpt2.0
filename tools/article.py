@@ -185,6 +185,12 @@ def main(title, params, name):
                     write_log(name,get_time()+' '+info,params)
                     exam = 1
                     break
+            elif 'Rate limit reached' in str(e):
+                info = f'{name}: 速率被限制，等待20s后重试(此问题可通过将openai绑定信用卡解决)'
+                logger.warning(info)
+                write_log(name,get_time()+' '+info,params)
+                time.sleep(20)
+                continue         
             else:
                 error += 1
                 if error >= 20:
