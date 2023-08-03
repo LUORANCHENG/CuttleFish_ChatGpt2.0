@@ -8,6 +8,7 @@ from docx import *
 #from get_path import get_temp_path, get_backup_path
 from docx import Document
 from tools.change_key import main as change_key
+from tools.change_key import change_key_by_rate_limit
 from tools.get_key import main as get_key
 from tools.get_path import get_temp_path, get_backup_path
 from tools.get_time_now import get_time
@@ -186,10 +187,12 @@ def main(title, params, name):
                     exam = 1
                     break
             elif 'Rate limit reached' in str(e):
-                info = f'{name}: 速率被限制，等待20s后重试(此问题可通过将openai绑定信用卡解决)'
+                info = f'{name}: 速率被限制，等待100s后重试(此问题可通过将openai绑定信用卡解决)'
                 logger.warning(info)
                 write_log(name,get_time()+' '+info,params)
-                time.sleep(20)
+                time.sleep(100)
+                change_key_by_rate_limit()
+                openai.api_key = get_key()
                 continue         
             else:
                 error += 1
