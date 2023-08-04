@@ -187,11 +187,11 @@ def main(title, params, name):
                     exam = 1
                     break
             elif 'Rate limit reached' in str(e):
+                info = f'{name}: 速率被限制，等待100s后换key重试(此问题可通过将openai绑定信用卡解决)'
+                logger.warning(info)
+                write_log(name,get_time()+' '+info,params)
+                time.sleep(100)
                 try:
-                    info = f'{name}: 速率被限制，等待100s后换key重试(此问题可通过将openai绑定信用卡解决)'
-                    logger.warning(info)
-                    write_log(name,get_time()+' '+info,params)
-                    time.sleep(100)
                     change_key_by_rate_limit()
                     openai.api_key = get_key()
                     continue
@@ -199,7 +199,7 @@ def main(title, params, name):
                     info = f'{name}: 当前只有一个key，无可用key进行更换'
                     logger.warning(info)
                     write_log(name,get_time()+' '+info,params)
-                    continue    
+                    continue  
             else:
                 error += 1
                 if error >= 20:
